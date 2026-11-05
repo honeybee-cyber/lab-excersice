@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects page showcasing web development and programming work by Hana Mekonnen Gebregiorgis.">
+    <meta name="keywords" content="Hana Mekonnen Gebregiorgis, projects, software engineering, AASTU, Python, HTML">
+    <meta name="author" content="Hana Mekonnen Gebregiorgis">
+    <title>Projects | Hana Mekonnen Gebregiorgis</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">&larr; Back to Home</a> | 
+            <a href="https://www.w3.org/" target="_blank">W3C HTML Reference</a> | 
+            <a href="index.html#contact">Jump to Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>My Projects</h1>
+        <p>Details of every project I have built.</p>
+
+        <!-- Project Summary Table (Lab 7) -->
+        <table border="1" cellpadding="8" cellspacing="0">
+            <caption>Project Summary</caption>
+            <thead>
+                <tr>
+                    <th>Project</th>
+                    <th>Language</th>
+                    <th>Year</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Simple Calculator</td>
+                    <td>Python</td>
+                    <td><time datetime="2024">2024</time></td>
+                    <td><a href="#calculator">View Details</a></td>
+                </tr>
+                <tr>
+                    <td>Library Management System</td>
+                    <td>Python</td>
+                    <td><time datetime="2025">2025</time></td>
+                    <td><a href="#library">View Details</a></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3">Total projects</th>
+                    <th>2</th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <!-- Article 1: Simple Calculator -->
+        <article id="calculator">
+            <h3>Simple Calculator</h3>
+            <img src="project-calculator.png" alt="Screenshot of the calculator showing 12 + 30 = 42" width="400" height="250">
+            <p>A calculator that adds, subtracts, multiplies and divides.</p>
+            
+            <h3>Watch the demo</h3>
+            <video controls poster="project-demo-poster.jpg" width="640" height="360">
+                <source src="media/project-demo.mp4" type="video/mp4">
+                <source src="media/project-demo.webm" type="video/webm">
+                <track src="media/project-demo.vtt" kind="captions" srclang="en" label="English" default>
+                Your browser does not support the video tag.
+            </video>
+
+            <details>
+                <summary>How I built it</summary>
+                <ol>
+                    <li>Wrote down the four operations the program must support.</li>
+                    <li>Read two numbers and an operator from the user.</li>
+                    <li>Used if/elif to pick the operation.</li>
+                    <li>Handled division by zero with an error message.</li>
+                </ol>
+            </details>
+        </article>
+
+        <!-- Article 2: Library Management System -->
+        <article id="library">
+            <h3>Library Management System</h3>
+            <img src="project-library.png" alt="Screenshot of the Library Management System console" width="400" height="250">
+            <p>A console program for borrowing and returning books.</p>
+            
+            <details>
+                <summary>How I built it</summary>
+                <ol>
+                    <li>Defined book and member data structures.</li>
+                    <li>Implemented book check-out and check-in logic.</li>
+                    <li>Added search functionality by title and author.</li>
+                    <li>Tested edge cases for unavailable books.</li>
+                </ol>
+            </details>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Hana Mekonnen Gebregiorgis. All rights reserved.</p>
+        <p>Last updated: <time datetime="2026-11-05">5 November 2026</time></p>
+    </footer>
+</body>
+</html>
